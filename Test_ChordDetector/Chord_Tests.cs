@@ -23,7 +23,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isNote, expectedResult);
+            Assert.Equal(expectedResult, isNote);
         }
 
         [Fact]
@@ -42,7 +42,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isNote, expectedResult);
+            Assert.Equal(expectedResult, isNote);
         }
         [Fact]
         public void Test_IsNote_TrueNoAlteration()
@@ -60,7 +60,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isNote, expectedResult);
+            Assert.Equal(expectedResult, isNote);
         }
 
         [Fact]
@@ -78,7 +78,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isNote, expectedResult);
+            Assert.Equal(expectedResult, isNote);
         }
         [Fact]
         public void Test_IsNote_FalseSharp()
@@ -95,7 +95,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isNote, expectedResult);
+            Assert.Equal(expectedResult, isNote);
         }
         [Fact]
         public void Test_IsNote_FalseFlat()
@@ -112,7 +112,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isNote, expectedResult);
+            Assert.Equal(expectedResult, isNote);
         }
 
 
@@ -147,7 +147,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isFlatNote, expectedResult);
+            Assert.Equal(expectedResult, isFlatNote);
         }
 
         [Fact]
@@ -165,7 +165,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isFlatNote, expectedResult);
+            Assert.Equal(expectedResult, isFlatNote);
         }
 
         [Fact]
@@ -183,7 +183,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(isFlatNote, expectedResult);
+            Assert.Equal(expectedResult, isFlatNote);
         }
 
 
@@ -222,7 +222,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(intervalName, expectedResult);
+            Assert.Equal(expectedResult, intervalName);
         }
 
         [Fact]
@@ -240,7 +240,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(intervalName, expectedResult);
+            Assert.Equal(expectedResult, intervalName);
         }
 
         [Fact]
@@ -258,7 +258,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(intervalName, expectedResult);
+            Assert.Equal(expectedResult, intervalName);
         }
 
 
@@ -295,7 +295,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(noteIndex, expectedResult);
+            Assert.Equal(expectedResult, noteIndex);
         }
 
         [Fact]
@@ -314,7 +314,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(noteIndex, expectedResult);
+            Assert.Equal(expectedResult, noteIndex);
         }
 
         [Fact]
@@ -333,7 +333,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(noteIndex, expectedResult);
+            Assert.Equal(expectedResult, noteIndex);
         }
 
 
@@ -356,7 +356,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(semitonesInterval, expectedResult);
+            Assert.Equal(expectedResult, semitonesInterval);
         }
 
         [Fact]
@@ -377,7 +377,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(semitonesInterval, expectedResult);
+            Assert.Equal(expectedResult, semitonesInterval);
         }
 
         [Fact]
@@ -398,7 +398,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(semitonesInterval, expectedResult);
+            Assert.Equal(expectedResult, semitonesInterval);
         }
 
 
@@ -479,7 +479,7 @@ namespace Test_ChordDetector
 
             // Auditer
 
-            Assert.Equal(notesInterval, expectedResult);
+            Assert.Equal(expectedResult, notesInterval);
         }
 
         [Fact]
