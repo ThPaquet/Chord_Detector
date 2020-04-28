@@ -1,0 +1,5 @@
+*.xml
+ChordDetector/bin
+ChordDetector/obj
+Test_ChordDetector/bin
+Test_ChordDetector/obj
